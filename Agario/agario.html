@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title>Friv/Agar.io</title>
+      <script src="js/player.js"></script>
+      <script src="js/boules.js"></script>
+      <script src="js/background.js"></script>
+      <script src="js/ennemi.js"></script>
+      <script src="js/tir.js"></script>
+
+      <link rel="stylesheet" href="css/agario.css">
+    </head>
+    <body>
+
+      <header id="header">
+        <center><h1>Agar.io</h1></center>
+      </header>
+
+      <main>
+        <div id="main">
+          <canvas id="canvas"></canvas>
+        </div>
+        <div id="menu">
+          <h2>Menu</h2>
+          <h3><u>Joueur</u></h3>
+        <div id="color">
+          <span>Couleur du joueur:</span>
+          <button id="blue" onclick="color(0)"></button>
+          <button id="green" onclick="color(1)"></button>
+          <button id="red" onclick="color(2)"></button><br><br>
+          <span>Nom du joueur:</span>
+          <input type="text" maxlength="10" id="name"></input>
+        </div>
+
+          <h3>Mode de jeu</h3>
+          <div id="mode">
+            <button onclick="mode(0)">Tout le monde contre</button>
+            <button onclick="mode(1)">En équipes</button>
+          </div>
+
+          <button id="start" onclick="start()">Commencer</button>
+
+        </div>
+      </main>
+
+      <footer id="footer">
+        <center><p>Jeu conçu par Samuel Dupont<br> (Friv JDLM conçu par Ilyas Alam, Samuel Dupont et Hari Poupart)</p></center>
+      </footer>
+      <script src="js/agario.js"></script>
+    </body>
+  </html>

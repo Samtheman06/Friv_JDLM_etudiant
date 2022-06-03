@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Cookie Clicker </title>
+    <link rel="stylesheet" href="play.css">
+  </head>
+
+  <body>
+    <main>
+      <center><h1>Cookie Clicker</h1></center>
+      <p id ="dollars"> Dollars: 0</p>
+
+
+      <div class="cookie">
+        <a href="#"><img id="cookie" src="images/skin0.png" onclick="montrer(0); return false;"></a>
+      </div>
+    </main>
+
+    <button id="shop" onclick="openshop(); return false;">Shop</button>
+    <button id="stats" onclick="openstats(); return false;">Stats</button>
+    <button id="stats" onclick="opensettings(); return false;">Settings</button>
+
+
+
+    <br>
+
+    <!-- Shop -->
+    <div id="shophub">
+      <h2>Shop</h2>
+      <span>Increase money per click:</span> &nbsp
+      <button id="clickamount" onclick="buyclick(); return false;">100$</button><br><br>
+
+      <span>Buy an auto-clicker (+0.3 $/s):</span>&nbsp<button id="upgrade0" onclick="buy(0)">100$</button>
+      <span>Buy a grandma (+0.5 $/s):</span>&nbsp<button id="upgrade1" onclick="buy(1)">1000$</button>
+      <span>Buy a farm (+1 $/s):</span>&nbsp<button id="upgrade2" onclick="buy(2)">10 000$</button><br><br>
+      <span>Buy a factory (+2 $/s):</span>&nbsp<button id="upgrade3" onclick="buy(3)">100 000$</button>
+      <span>Buy a mine (+5 $/s):</span>&nbsp<button id="upgrade4" onclick="buy(4)">1 000 000$</button>
+      <span>Buy a cargo ship (+10 $/s):</span>&nbsp<button id="upgrade5" onclick="buy(5)">10 000 000$</button>
+    </div>
+
+
+
+    <div id="statshub">
+      <h2>Stats</h2>
+      <span>Total number of clicks:</span>&nbsp<span id="totalclicks">0</span><br><br>
+      <span>Total amount of money gained:</span>&nbsp<span id="totaldollars">0</span>
+    </div>
+
+    <div id="settingshub">
+      <h2>Settings</h2>
+      <span>Backgroud color:</span>
+      <button id="grey" onclick="color(0)"></button>
+      <button id="blue" onclick="color(1)"></button>
+      <button id="yellow" onclick="color(2)"></button><br><br>
+
+      <div id=skins class="skins">
+      <span id="span0">Cookie</span>
+      <span id="span1">Strawberry</span>
+      <span id="span2">Watermelon</span>
+      <span id="span3">Penny</span>
+      <span id="span4">Duck</span>
+      <br>
+
+      <button id="skin0" onclick="changeskin(0)">Selected</button>
+      <button id="skin1" onclick="changeskin(1)">1000$</button>
+      <button id="skin2" onclick="changeskin(2)">2000$</button>
+      <button id="skin3" onclick="changeskin(3)">3000$</button>
+      <button id="skin4" onclick="changeskin(4)">4000$</button>
+    </div>
+    </div>
+
+      <script src="play.js"></script>
+  </body>
+</html>

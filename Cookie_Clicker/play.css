@@ -1,0 +1,58 @@
+
+
+body {
+  background-color: lightgrey;
+}
+
+button {
+  cursor: pointer;
+  padding: 9px 9px;
+  font-size: 15px;
+  color: white;
+  border-radius: 5px;
+  border-color: black;
+  background-color: black;
+  margin-right: 10px;
+}
+
+
+div.cookie img {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.cookie {
+  display: flex;
+  justify-content: center;
+}
+
+
+#dollars {
+  text-align: center;
+
+}
+
+div.shophub {
+
+}
+
+#grey {background-color: grey;}
+#blue {background-color: blue;}
+#yellow {background-color: yellow;}
+
+
+
+#span0 {margin-left: 15px}
+#span1 {margin-left: 65px}
+#span2 {margin-left: 50px}
+#span3 {margin-left: 65px}
+#span4 {margin-left: 87px}
+
+#skins button {
+  padding: 5px;
+  margin-right: 50px;
+  width:75px;
+}
