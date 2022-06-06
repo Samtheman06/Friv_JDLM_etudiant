@@ -24,19 +24,16 @@ class Choix{
    }
    if(this.uwu ==8){
      this.indexY = this.trancheH
-     
+
    }
  this.indexX =this.indexTranche*this.trancheL
 
  c.drawImage(
-   this.sprite.image, //Object image
+   this.sprite.image,
    this.indexX, this.indexY , this.trancheL, this.trancheH,
-   this.x, this.y, this.largeur, this.hauteur   //Destination
+   this.x, this.y, this.largeur, this.hauteur
  )
 
-   //c.fillStyle = "white"
-   //c.fillRect(this.x, this.y, this.largeur, this.hauteur)
-   //(u do this)
  }
 
 
