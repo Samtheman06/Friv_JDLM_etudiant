@@ -1,0 +1,19 @@
+body{
+  font-family: 'Courier New', monospace;
+  font-size: 100%;
+  text-align: center;
+  background-image: url("background2.gif");
+  background-size: cover;
+}
+header h1 {
+  color: RED;
+}
+#canvas1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 5px yellow;
+  background-color: black;
+  background-size: cover;
+
+}
