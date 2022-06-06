@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="URF-8">
+  <link rel="stylesheet" href="css/InfluencerSimulator.css">
+  <script src="js/sprite.js"></script>
+  <script src="js/Influencer.js"></script>
+  <script src="js/choix.js"></script>
+<title>Influencer Simulator(Tik Tok Edition)</title>
+</head>
+<body>
+ <header>
+   <h1> Influencer Simulator (TikTok Edition) </h1>
+   <p> Followers: </p>
+   <p id="subs"> 0 </p>
+   <p> Money($): </p>
+   <p id="money"> 0 </p>
+ </header>
+ <main>
+   <div class="rangee">
+   <a href="#"> <img id="0" src="css/option1.png" onclick="choix(1)"> </a>
+   <a href="#"> <img id="1" src="css/option2.png" onclick="choix(2)"> </a>
+   </div>
+   <p id="text"></p>
+ <canvas id="canvas1"></canvas>
+ <div style="display:none;">
+   <img id="cloud1"
+   src="css/nuage1.png">
+   <img id="cloud2"
+   src="css/nuage2.png">
+   <img id="girl"
+   src="css/influencer.png">
+ </div>
+ </main>
+ <footer>
+   <p> Hari Poupart - 2021-2022</p>
+ </footer>
+ <script src="js/InfluencerSimulator.js"></script>
+</body>
+</html>
