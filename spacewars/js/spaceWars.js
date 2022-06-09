@@ -58,7 +58,7 @@ const endGame = function(){
   animationActive = false
 }
 const animer = function(){
-  requestAnimationFrame(animer)
+ 
 if(animationActive === false){return}
 if(animationActive === true){
   c.clearRect(0,0,canvas.width, canvas.height)
@@ -157,6 +157,8 @@ setInterval( function(){
 }
 
 }, 1000)
+setInterval( function(){ animer()}
+, 10)
 
 //
 setInterval( function(){
