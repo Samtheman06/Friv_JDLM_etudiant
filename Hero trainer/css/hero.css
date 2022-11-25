@@ -1,0 +1,15 @@
+body{
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 100%;
+  text-align: center;
+  background-color: lightGrey;
+  background-size: cover;
+}
+
+#canvas1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+
+}
